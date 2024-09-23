@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!--Reglas CSS, selector (el objeto al que aplicará) y propiedad-->
+    <!--CSS permite reducir el codigo-->
+    <!--tiene prioridad el estilo de atributo a nivel del elemento (que es uno por uno) sobre el estilo general o documento EN SOBREESTRITURA, estilo que no tenga conflicto no hay problema-->
+
+    <!-- si tiene . es un selector a nivel de clase-->
+
+    <!--# id (le gana, objetos unicos), 
+    clases . ( pseudo-clases :hover, atribtos type="text"), 
+    etiqueta (p, div)-->
+    
+    <!--Dos elementos en el mismo html no deben tener el mismo ID, porque son únicos-->
+
+    <link rel="stylesheet" href="estilo.css">
+    <!-- style es para poner css en -->
+
+</head>
+
+<body>
+    <h1>Sección 1</h1>
+    <p class="parrafo_impar parrafo_par" id="parrafo_principal"> <!--se muestra el primero declarado osea parrafo par-->
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo, et maxime error voluptates iste reprehenderit. Hic repellat doloremque, in minima architecto adipisci autem, perspiciatis odit pariatur aliquid magni mollitia.
+    </p>
+    <h1 style="background-color: blueviolet; color: white;">Sección 2</h1>
+    <p  class="parrafo_par"> 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo, et maxime error voluptates iste reprehenderit. Hic repellat doloremque, in minima architecto adipisci autem, perspiciatis odit pariatur aliquid magni mollitia.
+    </p>
+    <h1 style="background-color: blueviolet; color: white;">Sección 3</h1>
+    <p class="parrafo_impar"> 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo, et maxime error voluptates iste reprehenderit. Hic repellat doloremque, in minima architecto adipisci autem, perspiciatis odit pariatur aliquid magni mollitia.
+    </p>
+</body>
+</html>

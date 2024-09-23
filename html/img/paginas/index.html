@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+<body>
+    <!--<b> para hacer negrita--> 
+    <a href="#encabezado5">Ir a encabezado 5</a><br>
+    <a href="./tablas.html">Ir a tablas</a><br>
+    <a href="../paginas/acercade.html">Ir a acerca de</a><br> <!--&nbps; nuevo espacio en blanco ------br salto de linea-->
+    <a href="../paginas/contacto.html">Ir a contacto</a><br>
+    <a href="https://nbs.ecotec.edu.ec/login" target="_blank">Ir a NBS</a><br> <!--ruta absoluta - relativa-->
+    <!--target decide como se abrira la pagina-->
+    <h1> Encabezado 1</h1>
+    <p>  <!-- p es paragrafo -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <!-- u es subrayado -->
+        <!-- sup superindice arriba -->
+        <!-- sub para indice inferior-->
+        <u>Maxime saepe reiciendis accusantium sunt placeat obcaecati aut</u> <br> y=x<sup>4</sup></br>
+        <br><br><b>  
+        <!--</br> es un salto de linea (la forma mas cortas) para aquellas etiquetas que no tengan nodos hijos--> 
+        <!--<b> para hacer negrita--> 
+        <!--i para hacer cursiva--> 
+        reprehenderit ipsam perspiciatis, voluptatum suscipit consequatur, repellat, dolorem <i>modi itaque tempore doloribus</i></b> laudantium eum.
+        <ul type="circle"> <!-- lista sin orden como disc, square, circle-->
+          <li> <!-- list item, lista de item--> Cuenca</li>
+          <li> Quito </li>
+          <li> Guayaquil </li>
+        </ul>
+        <ol type="I">  <!-- enumera en orden a= minusculas A mayusculas i numeros romanos o I para mayusculas en numeros romanos-->
+          <li> Quito </li>
+          <li> Guayaquil </li>
+          <li> Riobamba</li>
+        </ol>
+    <a href="mailto://tjordan@est.ecotec.edu.ec">Enviar correo</a></br>
+    <a href="https://www.google.com"><img src="../personajes/imagen1.png" width="20%"></a>  <!-- agregar imagen - no esta incrustada se pide al serrvidor- RELATIVO-->
+    <img src="http://localhost:81/html/img/personajes/imagen1.png" width="100px" height="200px"> <!-- ruta absoluta, incluye http-->
+    <img src="https://content.cuerpomente.com/medio/2022/07/13/flores-simbolismo-espiritualidad_09ff3f15_1200x1200.jpg" width="30%"> <!--Recurso web-->
+    </p>
+
+    <hr>  <!-- linea para separar informacion hace una linea-->
+    <h2> Encabezado 1</h2>
+    <p>
+       <!-- se escribe normalmente lorem para generar texto aleatorio--> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquam ut tenetur ullam architecto perspiciatis ipsum unde voluptates inventore. Quae perspiciatis nemo asperiores nesciunt numquam reprehenderit qui dolor explicabo recusandae.
+    </p>
+    <hr>
+    <h3> Encabezado 1</h3>
+    <code>
+        import libreria1.test;
+        <br>  <!-- salto de linea-->
+        class Test {} 
+    </code>
+    <h4> Encabezado 1</h4>
+    <pre> <!-- muestra el texto tal y como lo escribimos, asi con el espacio y todo-->
+        aaaa        eeeeee
+        iiii        oooooo
+    </pre>
+    <h5 id="encabezado5"> Encabezado 5</h5>
+    <h6> Encabezado 6</h6>
+    <h7> Encabezado 7</h7>  <!--no existe, existen dos etiquetas: etiqueta en bloque como hiding y etiqueta en linea -->
+</body>
+</html>

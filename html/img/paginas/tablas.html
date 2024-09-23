@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <div align="center"> <!--para agrupar elementos y aplicar estilos-->
+        <table border="1 px" width="50%" cellpadding="100px" cellspacing="100px"> 
+            <!--Sólo table viene por defecto sin bordes-->
+            <!--Width es el ancho a partir de la ventana, tiene mayor decisión que cellpadding-->
+            <!--padding borde o espacio alrededor del texto, entre el borde y el contenido-->
+            <!--cellspacing da espacio entre celdas-->
+
+            <tr> <!--filas table rock-->
+                <th align="center">Cédula</th><!--encabezados de las tablas Header, puede ponerse en cualquiera, th automáticamente se centra-->
+                <th>Nombre</th>
+                <th>Carrera</th>
+            </tr>
+
+            <tr>
+                <td align="center">0909090909</td> <!--celda con datos para la tabla-->
+                <td style="text-align: center;">Tiffany</td>
+                <td>Sistemas</td>
+            </tr>
+
+            <tr>
+                <td>0909090909</td> <!--celda con datos para la tabla-->
+                <td>Tiffany</td>
+                <td>Sistemas</td>
+            </tr>
+        </table>
+
+        <table border="1px">
+            <!--Thead, tbody, tfoot son agrupadores-->
+            <thead>
+                <tr>
+                    <th colspan="6">Horario</th>
+                </tr> <!--Espacio a ocupar con las columnas osea a lo largo-- HORIZONTAL-->
+            </thead>
+            <tr>
+                <th>Materia</th><th>Lunes</th><th>Martes</th><th>Miércoles</th> <!--incluso separado sigue siendo una sóla fila sin importar el salto de línea-->
+                <th>Jueves</th><th>Viernes</th>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">Programacion 3</td><td>18:15</td><td>18:15</td><td>18:15</td><td>18:15</td><td>18:15</td>
+            </tr> <!--rowspan se expanda de forma vertical, une filas,  LA CANTIDAD ES DESDE LA POSICIÓN ACTUAL 1 INCLUYE-->
+            
+            <tr>   
+                <td>19:15</td><td>19:15</td><td>19:15</td><td>19:15</td><td>19:15</td><!--primera celda de la fila fue eliminada por la expasión de arriba-->
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
